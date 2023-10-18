@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642979401881",
+    "project_id": "navbar-a6010",
+    "storage_bucket": "navbar-a6010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642979401881:android:21d1065f17dbbbd309e808",
+        "android_client_info": {
+          "package_name": "com.example.navbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk7KCON1UOn8ZEb65rcAPxOPJfa9B0Vh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

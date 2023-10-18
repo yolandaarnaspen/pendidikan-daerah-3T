@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Navbar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note"> Tes ini hanya untuk evaluasi awal. Jika perlu\ndukungan, hubungi para ahli  atau sumber terpercaya.\nJangan jadikan hasil tes ini sebagai acuan atau pembenaran.</string>
+    <string name="quiziz">1. Menyediakan gambaran awal tentang latihan soal dan ujian utbk\n2. Memungkinkan Anda lebih memahami materi utbk\n3. Membantu memperluas wawasan pelajar tentang materi utbk</string>
+    <string name="deskripsi1">E-Book Saintek berisi buku-buku sains dan teknologi seperti matematika, kimia, biologi, fisika, bahasa inggris, dan lain-lain.</string>
+    <string name="deskripsi2">E-Book Soshum berisi buku-buku sosial dan hukum seperti ilmu sosial, ilmu hukum, politik, geografi, sejarah, hingga akuntansi dan manajemen.</string>
+    <string name="deskripsi3">E-Book Kedinasan berisi buku-buku tentang tes kedinasan seperti tes SKD, SKB, kesehatan, psikotes, kesemaptaan, hingga wawancara.</string>
+    <string name="deskripsi4">E-Book BUMN berisi buku-buku tentang tes daftar BUMN seperti Tes Kompetensi Bisang (TKB), user interview, social media analytic dan digital mindset.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Navbar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ContohArtikelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BukuSaintekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PusatBantuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDzikriActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArtikelYolaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IsisChatDzikriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EbookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoshumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EquipperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DzikriMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

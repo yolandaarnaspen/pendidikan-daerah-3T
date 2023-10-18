@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <SearchView
+        android:id="@+id/searchView_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search Here..."
+        app:iconifiedByDefault="false"
+        app:queryBackground="@android:color/transparent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_11" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telusuri Semua Minat Anda"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/img_12"/>
+
+</FrameLayout>

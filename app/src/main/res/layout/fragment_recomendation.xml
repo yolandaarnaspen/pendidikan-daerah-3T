@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RecomendationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="Artikel Image14"
+                android:src="@drawable/artikel14" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitle9"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Satu Langkah Lebih Dekat dengan Persiapan Masuk Kuliah"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewPublisher9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:text="Oleh : Kompasiana"
+                    android:textColor="#00ADB5"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewDate9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15 Agustus 2023"
+                    android:textColor="@color/black"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewShare9"
+                    android:layout_width="25dp"
+                    android:layout_height="26dp"
+                    android:layout_below="@id/textViewDate9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="456dp"
+                    android:contentDescription="Share Icon"
+                    android:src="@drawable/ic_share" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="Artikel Image15"
+                android:src="@drawable/artikel15" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Perguruan Tinggi sebagai Badan Layanan Umum (BLU)"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewPublisher10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:text="Oleh : Blog eCampuz"
+                    android:textColor="#00ADB5"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewDate10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15 Agustus 2023"
+                    android:textColor="@color/black"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewShare10"
+                    android:layout_width="25dp"
+                    android:layout_height="26dp"
+                    android:layout_below="@id/textViewDate10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="456dp"
+                    android:contentDescription="Share Icon"
+                    android:src="@drawable/ic_share" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="Artikel Image9"
+                android:src="@drawable/artikel9" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Hal yang Perlu Disiapkan Sebelum Masuk Kuliah, Maba Wajib Catat"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewPublisher7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:text="Oleh : Umsida Menyapa"
+                    android:textColor="#00ADB5"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewDate7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15 Agustus 2023"
+                    android:textColor="@color/black"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewShare7"
+                    android:layout_width="25dp"
+                    android:layout_height="26dp"
+                    android:layout_below="@id/textViewDate7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="456dp"
+                    android:contentDescription="Share Icon"
+                    android:src="@drawable/ic_share" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

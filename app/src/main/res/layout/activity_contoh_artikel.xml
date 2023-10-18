@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ContohArtikelActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_23"/>
+        <TextView
+            android:id="@+id/textViewArticleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="16dp"
+            android:text="Pentingnya Kesejahteraan Mahasiswa dalam Konteks Perkuliahan"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewArticleAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="140dp"
+            android:text="Oleh : Umsida Menyapa"
+            android:textColor="#00ADB5"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewArticleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="end"
+            android:text="15 Agustus 2023"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViewArticle"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/artikel1" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="220dp"
+            android:src="@drawable/ic_love"
+            app:tint="#00ADB5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="402dp"
+            android:layout_marginEnd="160dp"
+            android:text="100 Likes"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/ic_comment"
+            app:tint="#00ADB5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="402dp"
+            android:layout_marginEnd="30dp"
+            android:text="100 Comment"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="Pendidikan merupakan salah satu upaya kita untuk\nmenanggulangi kebodohan dan kemiskinan yang terjadi di\nNegara kita yaitu Indonesia. Yang mana kita ketahui\nbersama, bawasannya dengan seseorang mengenyam\nbangku sekolah maka, orang tersebut telah mengetahui berbagai hal yang ada di dunia ini."
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="440dp"/>
+
+
+    </FrameLayout>
+
+
+
+</ScrollView>

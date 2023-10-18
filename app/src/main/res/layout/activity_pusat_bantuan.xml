@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PusatBantuanActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pusat Bantuan"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+    
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/img_16"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_17"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo, Ada yang bisa kami bantu?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"/>
+
+    <SearchView
+        android:id="@+id/searchView_Bantuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search Here..."
+        app:iconifiedByDefault="false"
+        app:queryBackground="@android:color/transparent"
+        android:layout_marginTop="110dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referensi Bantuan Populer"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="30dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_19"
+        android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/img_18" />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_19"
+        android:layout_marginTop="500dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Hubungi Kami"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"/>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/img_20" />
+
+
+</FrameLayout>
